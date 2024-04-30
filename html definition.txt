@@ -1,0 +1,138 @@
+parmis les comandes qui peuvent ns aider :
+-TAB :espace en avant .
+-TAB and SHIFT :retour en arriere.
+-ALT and shift , flech en haut: une copie en haut.
+-ALT and shift ,flech en bat : une copie en bat .
+../:pour sortir de la page .
+ <titel></titel>:le contexte qu'one ou fond du page web
+on a <meta/>
+on utilise une seul barre de meta il ferme lui meme aussi 
+on utilise pour donner une desciption a notre site web .
+<meta name:"description" content="this is ou book store">
+on utilise pour avoir un context cque notre page peuveut le supporter
+<meta charset:UTF-8/> supporte la langue arabe .
+<!doctype html> pour donner une signification a la page qu'on vas utiliser 
+pour les titre dans le body de notre code on utilise:
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>
+selon les numero des h on peut savoir la taille du titre
+<p></p>
+pour qu'on peut ecrire des pargraphe en rentournant a la ligne 
+<img src =""/>
+<video src=""></video>
+<audio src=""></audio>
+<b></b>=>pour maitre en gras
+<strongue></strongue>=> pour maitre ce qui est important en gras.
+<i></i>=> pour ecrire en italique.
+<em></em>=> pour ecrire ene italique le contenue important.
+<mark></mark>=> pour selectionner un contenue.
+<u></u>=>pour souligner le contenus .
+<small></small>=> pour petite ecriture.
+<del></del>=> pour barrer un text  .
+<sub></sub>=>subscript:pour ecrire un element sous la ligne.
+<sup></sup>=>superscript:pour ecrire un element en haut de la ligne.
+<a></a>pour les element qui un lien 
+comme:<a href="link">google</a>
+one peut ajouter target .
+comme:<a href="link" target=-blank>google</a>=> pour ouvrir dans une autre page .
+on peut utiliser le a pour email 
+comme:<a href=email > contact moi</a>.
+<img src:"link" / localisation de notre fichier en nos document alt:le nom quand lutilise dans le de disparution de notre image ></img>
+<ul>:unorder list
+<li></li>les element de la liste.
+</ul>on peut maitre list dans une autre liste
+****************************************TABLE*****************************************************
+<table>
+<thead></thead> => la premiere ligne du tableau
+<tbody></tbody> => le contenus du tableau
+<tfoot></tfoot>=> la fin du tableau
+</table>
+pour l'organisation d'un tableau on metre au dessus
+<thead>
+<td>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+</td>
+</thead> se sont les barres du tableau 
+<caption></caption> le titre du tableau.
+<span></span> quand veut modifier un mot dans un paragraphe on le donne le tague span.
+<br/> c'est retour a la ligne 
+<hr/> c'est faire une ligne entre notre contenu
+<audio></audio> c'est le tague d'audio on peut faire la source dans audio et en peut le faire en dehors d'audio 
+exemple <audio src="">        <audio>
+        </audio>         ou    <source src="">
+                               </audio>
+on dois aussi ajoute le type on peut le consulter dans mime type  
+<video></video> c'est le tague de la video 
+il supporte aussi le tague source 
+<source src="" type="mp4">
+toute les navigateurs suportes le mp4 
+<label></label> pour ouvrir des cases a remplir
+<input type="password"> input pour declarer le genre de label
+             "email"
+              "text" 
+on ajoute "required"  pour definir l'element est important 
+"placeholder" pour ecrire e contenu a remplir dans la case 
+"value "l'ancien valeur du contenu 
+on ajoute action dans la balise form 
+aussi methode get ou post  
+on ajoute aussi le readonly on peut rien change
+disable tu peux copier la valeur mais tu nepeut pas le modifier
+auto focus la valeur par defaut a remplir .
+minlength le minimum du caractere a entrer 
+maxlength le maximum de numero a entrer 
+<input type="hidden" value="oussam"> case cacher l'utilisateur ne peux le voir 
+<input type="reset" value:"rest"> pour suprimer toute les information est a refaire a 0
+on a <input type="radio" id="win"> on utilise radio pour cocher la bonne reponse 
+le id nous aide pour faire une lieson entre label et input 
+par exempl:
+<input id="win" type="radio">
+<label for="win">radio</label>
+<input type=checkbox> on peut cocher plusieurs choix en meme temp
+<label> choose book</label> ==>la phrase par defaut
+<select name ="book" id="book"> ==> la bare des livres
+<optgroup label="policier"> ==> pour specifier le genre de livre
+<option value="1">book1</option>==> les options qu'on a (les choix)
+<option value="2">book2</option> on peut ajouter "selected" pour specifier la valeur par defaut 
+<option value="3">book3</option>
+</optgroup>
+</select>
+<textarea name="subject"></textarea>==> la case vide qu'on a a remplir
+<div>
+<label>Upload</label> ==> pour faire entrer un file 
+<input type="file">
+</div>
+<div>
+<label>Search</label>==> pour faire des recherche
+<input type="Search">
+</div>
+<div>
+<label>enter your link</label> ==> pour entrer un lien 
+<input type="url">
+</div>
+<div>
+<label >month</label> ==> pour entrer le mois
+<input type="month">
+</div>
+<div>
+<label>Birthday</label>
+<input type="date">
+</div>
+on peux ajouter "Novalidate" on peux valider sans remplir
+"target" ouvrir dans une nouvelle page 
+<input list="programminge" name="prog">
+<datalist id="programming">
+<option value="php"> pour creer une list des langage de programation
+<q></q> contenu important
+<blockquote></blockquote> contenu important il prend toute la surface du page
+<button></button> pour creer un button (JS)
+<wbr> pour retourner a la ligne 
+<bdi> isolation de contenue
+<code></code> one l'utilise pour les formules mathematique
+<pre></pre> il respecte la surface entre le contenu
+<iframe src="link" width="200px"></iframe> pour importer un site dans notre site 
